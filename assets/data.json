@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "무선 마우스",
+      "price": 17900,
+      "stock": 25,
+      "imageUrl": "/mouse.png"
+    },
+    {
+      "id": "p002",
+      "name": "기계식 키보드",
+      "price": 69000,
+      "stock": 12,
+      "imageUrl": "/keyboard.png"
+    },
+    {
+      "id": "p003",
+      "name": "USB-C 허브 6in1",
+      "price": 32900,
+      "stock": 18,
+      "imageUrl": "/hub.png"
+    },
+    {
+      "id": "p004",
+      "name": "노트북 거치대",
+      "price": 24900,
+      "stock": 9,
+      "imageUrl": "/stand.png"
+    },
+    {
+      "id": "p005",
+      "name": "블루투스 이어폰",
+      "price": 59900,
+      "stock": 7,
+      "imageUrl": "/earbuds.png"
+    },
+    {
+      "id": "p006",
+      "name": "게이밍 마우스패드 XL",
+      "price": 12900,
+      "stock": 30,
+      "imageUrl": "/mousepad.png"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "c000",
+      "name": "쿠폰 없음",
+      "discountType": "PERCENT",
+      "discountValue": 0,
+      "minOrderPrice": 0,
+      "maxDiscountPrice": null,
+      "isActive": true
+    },
+    {
+      "id": "c010",
+      "name": "신규회원 10% 할인",
+      "discountType": "PERCENT",
+      "discountValue": 10,
+      "minOrderPrice": 10000,
+      "maxDiscountPrice": 5000,
+      "isActive": true
+    },
+    {
+      "id": "c015",
+      "name": "주말특가 15% 할인",
+      "discountType": "PERCENT",
+      "discountValue": 15,
+      "minOrderPrice": 30000,
+      "maxDiscountPrice": 10000,
+      "isActive": true
+    },
+    {
+      "id": "c020",
+      "name": "VIP 20% 할인",
+      "discountType": "PERCENT",
+      "discountValue": 20,
+      "minOrderPrice": 50000,
+      "maxDiscountPrice": 15000,
+      "isActive": true
+    }
+  ]
+}
